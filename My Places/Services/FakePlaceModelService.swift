@@ -9,7 +9,7 @@ import Foundation
 
 struct FakePlaceModelService {
     
-    private let restaurantNames = ["Burger Heroes", "Kitchen", "Bonsai", "Дастархан", "Indigokitay",
+    private let restaurantNames = ["Burger Heroes", "Kitchen", "Bonsai", "Дастархан",
                                    "X.O", "Балкан Гриль", "Sherlock Holmes", "Speak Easy", "Morris Pub",
                                    "Вкусные истории", "Классик", "Love&Life", "Шок", "Бочка"]
     
