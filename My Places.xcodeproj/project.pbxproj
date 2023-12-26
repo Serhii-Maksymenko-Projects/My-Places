@@ -61,10 +61,9 @@
 		A51840572B3B265700C0B532 /* My Places */ = {
 			isa = PBXGroup;
 			children = (
-				A557F1572B3B521600C93A5F /* Services */,
 				A518406E2B3B3B9300C0B532 /* Application */,
-				A59F90392B3B6D8D003E74DF /* Modules */,
-				A557F1512B3B483700C93A5F /* Models */,
+				A59F90402B3B90C0003E74DF /* Library */,
+				A59F903F2B3B9090003E74DF /* Configuration */,
 				A518406F2B3B42A000C0B532 /* Resources */,
 			);
 			path = "My Places";
@@ -81,7 +80,8 @@
 		A518406E2B3B3B9300C0B532 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				A51840582B3B265700C0B532 /* My_PlacesApp.swift */,
+				A59F90412B3B90E4003E74DF /* BusinessLogic */,
+				A59F90422B3B90F8003E74DF /* UI */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -95,21 +95,21 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A51840702B3B42D200C0B532 /* MainModule */ = {
+		A51840702B3B42D200C0B532 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				A518405A2B3B265700C0B532 /* MainContentView.swift */,
 				A557F1542B3B4D6E00C93A5F /* PlaceRowView.swift */,
 			);
-			path = MainModule;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		A557F1512B3B483700C93A5F /* Models */ = {
+		A557F1512B3B483700C93A5F /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				A557F1522B3B484400C93A5F /* PlaceModel.swift */,
 			);
-			path = Models;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		A557F1572B3B521600C93A5F /* Services */ = {
@@ -123,19 +123,51 @@
 		A59F90392B3B6D8D003E74DF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A59F903A2B3B6DAD003E74DF /* NewPlaceModule */,
-				A51840702B3B42D200C0B532 /* MainModule */,
+				A59F903A2B3B6DAD003E74DF /* NewPlace */,
+				A51840702B3B42D200C0B532 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		A59F903A2B3B6DAD003E74DF /* NewPlaceModule */ = {
+		A59F903A2B3B6DAD003E74DF /* NewPlace */ = {
 			isa = PBXGroup;
 			children = (
 				A59F903B2B3B6DC7003E74DF /* NewPlaceContentView.swift */,
 				A59F903D2B3B7A52003E74DF /* PlaceTextField.swift */,
 			);
-			path = NewPlaceModule;
+			path = NewPlace;
+			sourceTree = "<group>";
+		};
+		A59F903F2B3B9090003E74DF /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A51840582B3B265700C0B532 /* My_PlacesApp.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A59F90402B3B90C0003E74DF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A59F90412B3B90E4003E74DF /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A557F1572B3B521600C93A5F /* Services */,
+				A557F1512B3B483700C93A5F /* Entity */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		A59F90422B3B90F8003E74DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A59F90392B3B6D8D003E74DF /* Modules */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
