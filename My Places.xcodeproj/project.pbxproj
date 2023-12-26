@@ -90,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A518405A2B3B265700C0B532 /* MainContentView.swift */,
+				A51840732B3B464A00C0B532 /* PlaceRowView.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -175,6 +176,7 @@
 				A518405B2B3B265700C0B532 /* MainContentView.swift in Sources */,
 				A557F1532B3B484400C93A5F /* PlaceModel.swift in Sources */,
 				A51840592B3B265700C0B532 /* My_PlacesApp.swift in Sources */,
+				A51840742B3B464A00C0B532 /* PlaceRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
