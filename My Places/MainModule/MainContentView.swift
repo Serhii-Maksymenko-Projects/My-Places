@@ -9,6 +9,13 @@ import SwiftUI
 
 struct MainContentView: View {
     var body: some View {
+        
+        NavigationView {
+            Text("My Place")
+                .font(.custom("snell roundhand", size: 24))
+                .fontWeight(.bold)
+        }
+        .frame(height: 40)
        
         List {
             PlaceRowView()

@@ -12,6 +12,7 @@
 		A518405D2B3B265900C0B532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518405C2B3B265900C0B532 /* Assets.xcassets */; };
 		A51840602B3B265900C0B532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518405F2B3B265900C0B532 /* Preview Assets.xcassets */; };
 		A557F1532B3B484400C93A5F /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557F1522B3B484400C93A5F /* PlaceModel.swift */; };
+		A557F1552B3B4D6E00C93A5F /* PlaceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557F1542B3B4D6E00C93A5F /* PlaceRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A518405C2B3B265900C0B532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A518405F2B3B265900C0B532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A557F1522B3B484400C93A5F /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		A557F1542B3B4D6E00C93A5F /* PlaceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A518405A2B3B265700C0B532 /* MainContentView.swift */,
-				A51840732B3B464A00C0B532 /* PlaceRowView.swift */,
+				A557F1542B3B4D6E00C93A5F /* PlaceRowView.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -174,9 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A518405B2B3B265700C0B532 /* MainContentView.swift in Sources */,
+				A557F1552B3B4D6E00C93A5F /* PlaceRowView.swift in Sources */,
 				A557F1532B3B484400C93A5F /* PlaceModel.swift in Sources */,
 				A51840592B3B265700C0B532 /* My_PlacesApp.swift in Sources */,
-				A51840742B3B464A00C0B532 /* PlaceRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
