@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct PlaceRowView: View {
+    
+    let place: PlaceModel
+    
     var body: some View {
         HStack {
-            Image(.X_O)
+            Image(place.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .clipShape(Circle())
             
             VStack(alignment: .leading) {
-                Text("Name")
-                Text("Location")
-                Text("Type")
+                Text(place.name)
+                Text(place.location)
+                Text(place.type)
             }
         }
         .frame(height: 70)
@@ -26,5 +29,5 @@ struct PlaceRowView: View {
 }
 
 #Preview {
-    PlaceRowView()
+    PlaceRowView(place: PlaceModel(image: .X_O, name: "Name", location: "Location", type: "Type"))
 }
