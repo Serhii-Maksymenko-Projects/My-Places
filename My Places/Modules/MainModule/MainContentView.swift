@@ -14,7 +14,9 @@ struct MainContentView: View {
         NavigationView {
             List {
                 ForEach(service.restaurants) { place in
-                    PlaceRowView(place: place)
+                    NavigationLink(destination: NewPlaceContentView()) {
+                        PlaceRowView(place: place)
+                    }
                 }
             }
             .listStyle(.plain)
@@ -26,11 +28,12 @@ struct MainContentView: View {
                         .fontWeight(.bold)
                 }
                 ToolbarItem {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    NavigationLink(destination: NewPlaceContentView()) {
                         Image(systemName: "plus")
                             .foregroundColor(.blue)
-                    })
+                    }
                 }
+                
             }
         }
     }
