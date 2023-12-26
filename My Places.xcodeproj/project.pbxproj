@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A51840592B3B265700C0B532 /* My_PlacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51840582B3B265700C0B532 /* My_PlacesApp.swift */; };
-		A518405B2B3B265700C0B532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518405A2B3B265700C0B532 /* ContentView.swift */; };
+		A518405B2B3B265700C0B532 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518405A2B3B265700C0B532 /* MainContentView.swift */; };
 		A518405D2B3B265900C0B532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518405C2B3B265900C0B532 /* Assets.xcassets */; };
 		A51840602B3B265900C0B532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518405F2B3B265900C0B532 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		A51840552B3B265700C0B532 /* My Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51840582B3B265700C0B532 /* My_PlacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PlacesApp.swift; sourceTree = "<group>"; };
-		A518405A2B3B265700C0B532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A518405A2B3B265700C0B532 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
 		A518405C2B3B265900C0B532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A518405F2B3B265900C0B532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,7 @@
 		A51840702B3B42D200C0B532 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				A518405A2B3B265700C0B532 /* ContentView.swift */,
+				A518405A2B3B265700C0B532 /* MainContentView.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A518405B2B3B265700C0B532 /* ContentView.swift in Sources */,
+				A518405B2B3B265700C0B532 /* MainContentView.swift in Sources */,
 				A51840592B3B265700C0B532 /* My_PlacesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
