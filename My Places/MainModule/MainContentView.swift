@@ -9,12 +9,19 @@ import SwiftUI
 
 struct MainContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-            Text("Hello, world!")
+       
+        List {
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
+            PlaceRowView()
         }
-        .padding()
+        .listStyle(.plain)
+        
     }
 }
 
