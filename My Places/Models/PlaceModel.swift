@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct PlaceModel {
+struct PlaceModel: Identifiable {
+    let id = UUID()
     let image: ImageResource
     let name: String
     let location: String

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainContentView: View {
+    
+    private let service = FakePlaceModelService()
+    
     var body: some View {
         
         NavigationView {
@@ -18,14 +21,9 @@ struct MainContentView: View {
         .frame(height: 40)
        
         List {
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
-            PlaceRowView()
+            ForEach(service.restaurants) { place in 
+                PlaceRowView(place: place)
+            }
         }
         .listStyle(.plain)
         
