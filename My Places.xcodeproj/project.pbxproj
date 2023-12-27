@@ -126,8 +126,8 @@
 		A59F90392B3B6D8D003E74DF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A59F903A2B3B6DAD003E74DF /* NewPlace */,
 				A51840702B3B42D200C0B532 /* Main */,
+				A59F903A2B3B6DAD003E74DF /* NewPlace */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
