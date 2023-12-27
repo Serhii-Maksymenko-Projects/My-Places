@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct MainContentView: View {
-    private let service = FakePlaceModelService()
+
+    @StateObject private var viewModel: MainViewModel = MainViewModel()
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(service.restaurants) { place in
-                    NavigationLink(destination: NewPlaceContentView()) {
-                        PlaceRowView(place: place)
-                    }
+            List(viewModel.places, rowContent: { place in
+                NavigationLink(destination: NewPlaceContentView()) {
+                    PlaceRowView(place: place)
                 }
-            }
+            })
             .listStyle(.plain)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -33,7 +32,6 @@ struct MainContentView: View {
                             .foregroundColor(.blue)
                     }
                 }
-                
             }
         }
     }
