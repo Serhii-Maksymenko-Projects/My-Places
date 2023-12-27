@@ -16,6 +16,7 @@
 		A557F1592B3B523300C93A5F /* FakePlaceModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557F1582B3B523300C93A5F /* FakePlaceModelService.swift */; };
 		A59F903C2B3B6DC7003E74DF /* NewPlaceContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F903B2B3B6DC7003E74DF /* NewPlaceContentView.swift */; };
 		A59F903E2B3B7A52003E74DF /* PlaceTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F903D2B3B7A52003E74DF /* PlaceTextField.swift */; };
+		A59F90442B3B92D2003E74DF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F90432B3B92D2003E74DF /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A557F1582B3B523300C93A5F /* FakePlaceModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePlaceModelService.swift; sourceTree = "<group>"; };
 		A59F903B2B3B6DC7003E74DF /* NewPlaceContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceContentView.swift; sourceTree = "<group>"; };
 		A59F903D2B3B7A52003E74DF /* PlaceTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTextField.swift; sourceTree = "<group>"; };
+		A59F90432B3B92D2003E74DF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				A518405A2B3B265700C0B532 /* MainContentView.swift */,
 				A557F1542B3B4D6E00C93A5F /* PlaceRowView.swift */,
+				A59F90432B3B92D2003E74DF /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -123,8 +126,8 @@
 		A59F90392B3B6D8D003E74DF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A59F903A2B3B6DAD003E74DF /* NewPlace */,
 				A51840702B3B42D200C0B532 /* Main */,
+				A59F903A2B3B6DAD003E74DF /* NewPlace */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				A59F903C2B3B6DC7003E74DF /* NewPlaceContentView.swift in Sources */,
 				A557F1532B3B484400C93A5F /* PlaceModel.swift in Sources */,
 				A51840592B3B265700C0B532 /* My_PlacesApp.swift in Sources */,
+				A59F90442B3B92D2003E74DF /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
